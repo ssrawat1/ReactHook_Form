@@ -37,8 +37,7 @@ function DisplayUserData() {
                 <td>{userData.PhoneNumber}</td>
               </tr>
             </tbody>
-            <tfoot></tfoot>
-          </table>
+           </table>
           <button onClick={handleConfirm} className="confirm-btn">Confirm</button>
         </div>
       ) : (
